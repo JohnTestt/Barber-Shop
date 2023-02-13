@@ -51,6 +51,7 @@
   /*  margin-top: 10px; */
   position: relative;
   margin-top: -450px;
+  
   }
   
   .slider-nav button {
@@ -67,6 +68,9 @@
     max-width: 100px;
     max-height: 80px;
     
+  }
+  .inverter{
+    transform: scaleX(-1);
   }
   
   /* .img:hover{

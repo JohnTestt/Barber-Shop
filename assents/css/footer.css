@@ -15,13 +15,15 @@ footer{
     justify-content: space-around;
     position: relative;
     margin-top: -10rem;
+    flex-wrap: wrap;
    
 }
 
 .footer-container__info{
     border: solid var(--cor-laranja) 4px;
-    width: 25%;
+    min-width: 25%;
    padding: .8rem .5rem;
+   margin: 1rem 0; 
     
 
 }
@@ -40,7 +42,7 @@ footer{
 }
 
 .footer-container__map{
-    width: 60%;
+    min-width: 60%;
 }
 
 

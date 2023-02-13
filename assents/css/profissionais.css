@@ -36,13 +36,10 @@
 
 .profissonais__container-itens{
    
-    width: 20%;
-    height: 500px;
-   
+    min-width: 20%;
+    min-height: 500px;
     margin: 2rem 0; 
-   
-    
-    
+     
 }
 
 .profissonais__container-itens-border{
@@ -115,4 +112,23 @@
     }
     
 
+}
+
+@media screen and (max-width:1090px){
+
+    .profissonais__container{
+       width: 100%;
+    justify-content: center;
+        
+      
+    }
+    .profissonais__container-itens{
+   
+        min-width: 35%;
+        min-height: 500px;
+        margin: 2rem 2rem; 
+         
+    }
+    
+    
 }
