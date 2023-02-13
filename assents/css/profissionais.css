@@ -1,0 +1,118 @@
+.profissonais{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    background-color: var(--cor-verde-escuro);
+    text-align: center;
+    
+}
+
+.profissonais-h3{
+    color: var(--cor-laranja);
+}
+.profissonais-p{
+    color: var(--cor-branco);
+    letter-spacing: 2px;
+}
+
+.profissonais h3{
+    padding-top: 1.5rem;
+    font-size: 1.8rem;
+    
+}
+
+
+.profissonais__container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+    flex-wrap: wrap;  
+    text-align: center;
+    padding-bottom: 12rem; 
+}
+
+
+.profissonais__container-itens{
+   
+    width: 20%;
+    height: 500px;
+   
+    margin: 2rem 0; 
+   
+    
+    
+}
+
+.profissonais__container-itens-border{
+    border: solid var(--cor-laranja) 5px;
+    position: absolute;
+    height: 400px;
+    width: 300px;
+    margin-top: 1.8rem;
+    margin-left: -25px;
+
+}
+
+.profissonais__container-itens-img, 
+.profissonais__container-itens-img2, 
+.profissonais__container-itens-img3 {
+   
+    background-size: cover;
+    width: 100%;
+    height: 420px;
+   
+}
+
+.profissonais__container-itens-img{
+    background-image: url(../img/photograph/barbeiro1.jpg);
+}
+
+.profissonais__container-itens-img2{
+    background-image: url(../img/photograph/barbeiro2.jpg);
+}
+
+.profissonais__container-itens-img3{
+    background-image: url(../img/photograph/barbeiro3.jpg);
+    border-radius: 5px;
+}
+
+.profissonais__container-itens-p{
+    margin-top: 1.5rem;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.8rem;
+}
+
+@media screen and (max-width:500px){
+
+    .profissonais{
+        width: 100%;
+         
+    }
+    
+    .profissonais h3{
+        padding-top: 1.5rem;
+        font-size: 1.8rem;
+    }
+    
+    .profissonais__container{
+        
+        justify-content: center;
+        
+    }
+    
+    .profissonais__container-itens{
+       
+        width: 80%;
+        height: 500px;
+         
+    }
+    
+    .profissonais__container-itens-border{
+        
+        width: 280px;
+    }
+    
+
+}
