@@ -189,6 +189,7 @@
     
     .container-itens-h3{ 
         letter-spacing: 0.2rem;
+        line-height: 1.5;
         font-weight: 900;
         margin-bottom: 1.5rem;
         gap: 12px;

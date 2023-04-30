@@ -16,21 +16,24 @@ footer{
     position: relative;
     margin-top: -10rem;
     flex-wrap: wrap;
+    
    
 }
 
 .footer-container__info{
     border: solid var(--cor-laranja) 4px;
     min-width: 25%;
-   padding: .8rem .5rem;
-   margin: 1rem 0; 
+   padding: .8rem 1rem;
+   
     
 
 }
 .footer-container__info-itens{
     width: 100%;
     display: flex;
-    padding-bottom: .6rem;
+    padding-bottom: .9rem;
+    
+
 }
 .footer-container__info-itens p {
     padding-left: .6rem;
@@ -38,7 +41,9 @@ footer{
 }
 .footer-container__info-itens-time{
     
-   padding-top: 2rem;
+   padding-top: 1.2rem;
+   text-align: center;
+   width: 100%;
 }
 
 .footer-container__map{
@@ -54,6 +59,8 @@ footer{
     align-items: center;
     justify-content: space-between;
     margin-top: 1.5rem;
+    padding-bottom: 1rem;
+    
     
 }
 .footer-container__itens img{
